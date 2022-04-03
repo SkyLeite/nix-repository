@@ -10,10 +10,6 @@ stdenv.mkDerivation rec {
   src = fetchgit {
     url = "https://github.com/CakeTheLiar/launchhelper";
     sha256 = "sha256-uqZzDWUJTC2sYR5prAEjQbPX3sr5eqZ3q4iB7W9ilSw=";
-    sparseCheckout = ''
-    injector.py
-    launchhelper2.py
-    '';
   };
 
   nativeBuildInputs = [
