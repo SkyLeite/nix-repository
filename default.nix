@@ -16,6 +16,7 @@
 
   example-package = pkgs.callPackage ./pkgs/example-package { };
   lol-launchhelper = pkgs.callPackage ./pkgs/lol-launchhelper { };
+  ncpamixer-git = pkgs.callPackage ./pkgs/ncpamixer-git { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
